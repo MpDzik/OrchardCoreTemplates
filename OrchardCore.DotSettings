@@ -65,4 +65,19 @@
     {
         // TODO: Update view model
     }
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Description/@EntryValue">Orchard Core Content Part Handler</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Field/=Name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Shortcut/@EntryValue">OCPartHandler</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B714FAE7DC701242AA9016381E65B0D9/Text/@EntryValue">public class $Name$PartHandler : ContentPartHandler&lt;$Name$Part&gt;
+{
+    $END$
 }</s:String></wpf:ResourceDictionary>
