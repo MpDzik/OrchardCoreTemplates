@@ -25,6 +25,40 @@
         return 1;
     }
 }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Description/@EntryValue">Orchard Core Permissions</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Field/=Description/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Field/=Description/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Field/=Name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Shortcut/@EntryValue">OCPermissions</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Text/@EntryValue">public class Permissions : IPermissionProvider
+{
+    public static readonly Permission $Name$ = new("$Name$", "$Description$");
+
+    private readonly IEnumerable&lt;Permission&gt; _allPermissions =
+    [
+        $Name$
+    ];
+
+    public Task&lt;IEnumerable&lt;Permission&gt;&gt; GetPermissionsAsync()
+        =&gt; Task.FromResult(_allPermissions);
+
+    public IEnumerable&lt;PermissionStereotype&gt; GetDefaultStereotypes() =&gt;
+    [
+        new PermissionStereotype
+        {
+            Name = "Administrator",
+            Permissions = _allPermissions,
+        }
+    ];
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B31BC631533FF04F898B8B64B683771F/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B31BC631533FF04F898B8B64B683771F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B31BC631533FF04F898B8B64B683771F/Description/@EntryValue">Orchard Core Content Part Driver</s:String>
