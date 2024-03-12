@@ -1,4 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=26E712D4B91E2E49A0E92C0AFE6FF57E/Entry/=2E3A72201ECA59458DB18E762EF47A6D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=26E712D4B91E2E49A0E92C0AFE6FF57E/Entry/=2E3A72201ECA59458DB18E762EF47A6D/EntryName/@EntryValue">&lt;No Name&gt;</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=26E712D4B91E2E49A0E92C0AFE6FF57E/Entry/=2E3A72201ECA59458DB18E762EF47A6D/Position/@EntryValue">5</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2854436716AE22409408579B701FD480/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2854436716AE22409408579B701FD480/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2854436716AE22409408579B701FD480/Description/@EntryValue">Orchard Core Migration</s:String>
@@ -25,6 +28,25 @@
         return 1;
     }
 }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/CustomProperties/=Extension/@EntryIndexedValue">cshtml</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/CustomProperties/=FileName/@EntryIndexedValue">_ViewImports</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Description/@EntryValue">Orchard Core _ViewImports.cshtml</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Reformat/@EntryValue">True</s:Boolean>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Scope/=9DE3B2E4359F5A46BFB8606C892DC05D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Scope/=9DE3B2E4359F5A46BFB8606C892DC05D/Type/@EntryValue">InRazorCSharpCoreProject</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E3A72201ECA59458DB18E762EF47A6D/Text/@EntryValue">@inherits OrchardCore.DisplayManagement.Razor.RazorPage&lt;TModel&gt;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, OrchardCore.DisplayManagement
+@addTagHelper *, OrchardCore.ResourceManagement
+
+@using Microsoft.AspNetCore.Mvc.Localization</s:String>
+	
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E45EDA05F27C84CBC93F06A5486AAF3/Description/@EntryValue">Orchard Core Permissions</s:String>
